@@ -1,0 +1,346 @@
+header{
+    background-color: #d8dfdf;
+    color:#73383E;
+}
+
+.header-title {
+    font-size: 3rem; /* Ajusta el tamaño según lo que necesites */
+    text-align: left; /* Alineación del texto */
+}
+
+
+/* Aplicar Cinzel a los encabezados */
+h1, h2, h3{
+    font-family: 'Cinzel', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700; /* Negrita */
+}
+
+/* Ejemplo de Cinzel con diferentes pesos */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 700; /* Negrita */
+}
+
+p {
+    font-family: 'Cinzel', serif;
+    font-weight: 400; /* Normal */
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Helvetica', sans-serif;
+    font-family: 'Cinzel', 'serif';
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+p{
+    font-family: 'Playfair Display';
+}
+
+/* Navbar personalizado */
+.navbar {
+    background-color: #73383E;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ecf0f1;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #AC9C8D;
+}
+
+/*Cards */
+.card {
+    width: 20rem;
+}
+
+.imagen {
+    width: 50%;
+}
+
+.card-tamanio {
+    width: 15rem;
+    height: 10rem;
+}
+
+.card-text {
+    font-size: small;
+}
+
+/* Sección de cabecera */
+header {
+    background-color: #73383E;
+    color: #73383E;
+    padding: 3rem 0;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #D9D9D9;
+}
+
+.intro{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    color: #F0E9E1;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.button{
+    text-align: center;
+}
+
+.btn {
+    background-color: #AC9C8D;
+    border: none;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #D9D9D9;
+}
+
+
+/* Productos Destacados */
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #2c3e50;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+/* Galería */
+.img-placeholder {
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    object-fit: cover;
+}
+
+
+/* Sección de Historia */
+section {
+    padding: 4rem 0;
+}
+
+
+/* Recomendaciones */
+.recommendations img-placeholder {
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+/* Sponsors */
+.sponsors .img-placeholder {
+    height: 100px;
+    margin: 2rem 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #AC9C8D; /* Cambia el color de fondo de las flechas */
+    background-size: 100%; /* Asegura que el ícono SVG ocupe todo el contenedor */
+    border-radius: 50%; /* Opcional: hace las flechas redondas */
+}
+
+
+/* Footer */
+footer {
+    background-color: #73383E;
+    color: #73383E;
+    padding: 1.5rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* /////////////////////////////////Sobre-nosotros */
+
+p{
+    font-size: large;
+}
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 2rem 1rem;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    /* Footer padding reduction */
+    footer {
+        padding: 1rem 0;
+    }
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.carousel-inner img,
+.img-placeholder {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para pantallas pequeñas */
+
+@media (max-width: 768px) {
+    footer p, footer .text-light {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}
+
+/* Tamaño y visibilidad por defecto del isotipo y la marca */
+.logo-isotipo {
+    width: 40px; /* Tamaño del isotipo ajustado */
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* En pantallas pequeñas, oculta el texto "Cosecha Selecta" y ajusta el isotipo */
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none; /* Ocultar "Cosecha Selecta" */
+    }
+    .logo-isotipo {
+        width: 30px; /* Ajusta el tamaño del isotipo para pantallas pequeñas */
+    }
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+
+    /* Añadir más ajustes responsivos */
+    header {
+        padding: 2rem 1rem;
+    }
+
+    h1, h2, h3 {
+        font-size: 1.8rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .intro {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.2rem;
+    }
+
+    /* Footer padding reduction */
+    footer {
+        padding: 1rem 0;
+    }
+
+    footer p, footer .text-light {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    /* Navbar */
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Margen adicional entre imágenes en dispositivos grandes */
+@media (min-width: 768px) {
+    .row.g-3 > .col-md-6,
+    .row.g-3 > .col-md-4,
+    .row.g-3 > .col-md-8 {
+        margin-bottom: 20px;
+    }
+}
+
